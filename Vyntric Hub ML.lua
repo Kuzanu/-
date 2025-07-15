@@ -1247,6 +1247,12 @@ CrystalToggle:OnChanged(function()
     end
 end)
 
+
+local CreditsParagraph = Tabs.Credits:CreateParagraph("Paragraph", {
+    Title = "Special Thanks",
+    Content = "Special thanks to ttvkaiser and Exv_ for making this script work flawlessly. Their dedication and hard work as the owners of Vyntric Hub made everything possible.\nWe truly appreciate their effort!"
+})
+
 -- Permanent Shift Lock Button
 Tabs.Misc:CreateButton({
     Title = "Permanent Shift Lock",
@@ -1395,11 +1401,6 @@ Tabs.Misc:CreateButton{
         print("[Nebula Hub] 🧹 No Lag Mode Activated")
     end
 }
-
-local VreditsParagraph = Credits.Main:CreateParagraph("CreditsParagraph", {
-    Title = "Special Thanks",
-    Content = "Special thanks to ttvkaiser and Exv_ for making this script work flawlessly. Their dedication and hard work as the owners of Vyntric Hub made everything possible.\nWe truly appreciate their effort!"
-})
 
 -- Addons:
 -- SaveManager (Allows you to have a configuration system)
